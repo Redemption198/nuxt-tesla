@@ -1,0 +1,155 @@
+<template>
+  <header
+    class="
+      fixed
+      top-0
+      z-20
+      w-full
+      flex
+      justify-between
+      items-center
+      text-zinc-900
+      font-semibold
+      px-4
+      lg:px-10
+      my-4
+    "
+  >
+    <IconTeslaLogo class="w-32 h-auto" />
+    <ol class="xl:flex items-center gap-2 text-sm hidden">
+      <li
+        class="
+          px-4
+          py-1.5
+          hover:bg-zinc-700/10
+          rounded-xl
+          transition
+          duration-300
+          backdrop-blur
+        "
+      >
+        <a href="">Model S</a>
+      </li>
+      <li
+        class="
+          px-4
+          py-1.5
+          hover:bg-zinc-700/10
+          rounded-xl
+          transition
+          duration-300
+          backdrop-blur
+        "
+      >
+        <a href="">Model 3</a>
+      </li>
+      <li
+        class="
+          px-4
+          py-1.5
+          hover:bg-zinc-700/10
+          rounded-xl
+          transition
+          duration-300
+          backdrop-blur
+        "
+      >
+        <a href="">Model X</a>
+      </li>
+      <li
+        class="
+          px-4
+          py-1.5
+          hover:bg-zinc-700/10
+          rounded-xl
+          transition
+          duration-300
+          backdrop-blur
+        "
+      >
+        <a href="">Model Y</a>
+      </li>
+      <li
+        class="
+          px-4
+          py-1.5
+          hover:bg-zinc-700/10
+          rounded-xl
+          transition
+          duration-300
+          backdrop-blur
+        "
+      >
+        <a href="">Solar Roof</a>
+      </li>
+      <li
+        class="
+          px-4
+          py-1.5
+          hover:bg-zinc-700/10
+          rounded-xl
+          transition
+          duration-300
+          backdrop-blur
+        "
+      >
+        <a href="">Solar Panels</a>
+      </li>
+    </ol>
+
+    <ol class="xl:flex items-center gap-2 text-sm hidden">
+      <li
+        class="
+          px-4
+          py-1.5
+          hover:bg-zinc-700/10
+          rounded-xl
+          transition
+          duration-300
+          backdrop-blur
+        "
+      >
+        <a href="">Shop</a>
+      </li>
+      <li
+        class="
+          px-4
+          py-1.5
+          hover:bg-zinc-700/10
+          rounded-xl
+          transition
+          duration-300
+          backdrop-blur
+        "
+      >
+        <a href="">Account</a>
+      </li>
+      <li
+        class="
+          px-4
+          py-1.5
+          hover:bg-zinc-700/10
+          rounded-xl
+          transition
+          duration-300
+          backdrop-blur
+        "
+      >
+        <a href="">Menu</a>
+      </li>
+    </ol>
+    <p
+      class="
+        text-sm
+        px-4
+        py-1.5
+        bg-zinc-700/10
+        rounded-xl
+        xl:hidden
+        backdrop-blur
+      "
+    >
+      Menu
+    </p>
+  </header>
+</template>

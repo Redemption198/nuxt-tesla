@@ -27,12 +27,12 @@
         "
       >
         <button
-          class="md:px-14 py-2.5 bg-zinc-700 rounded-full text-slate-50 text-sm"
+          class="md:px-14 py-2.5 bg-zinc-900/70 backdrop-blur-sm rounded-full text-slate-50 text-sm"
         >
           CUSTOM ORDER
         </button>
 
-        <button class="py-2.5 bg-zinc-200 rounded-full text-sm">
+        <button class="py-2.5 bg-zinc-200/70 backdrop-blur-sm/70 backdrop-blur-sm rounded-full text-sm">
           EXISTING INVENTORY
         </button>
       </div>

@@ -30,7 +30,7 @@
           ORDER NOW
         </button>
 
-        <button class="py-2.5 bg-zinc-200 rounded-full text-sm">
+        <button class="py-2.5 bg-zinc-200/70 backdrop-blur-sm rounded-full text-sm">
           LEARN MORE
         </button>
       </div>

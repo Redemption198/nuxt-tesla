@@ -225,44 +225,52 @@
 </template>
 
 <script setup>
-const model3 = ref(null);
-const modelS = ref(null);
-const modelX = ref(null);
-const modelY = ref(null);
-const solar = ref(null);
-const solarRoof = ref(null);
-const wallConnector = ref(null);
+const model3 = shallowRef(null);
+const modelS = shallowRef(null);
+const modelX = shallowRef(null);
+const modelY = shallowRef(null);
+const solar = shallowRef(null);
+const solarRoof = shallowRef(null);
+const wallConnector = shallowRef(null);
+
+const overlayModel3 = resolveComponent("OverlayModel3")
+const overlayModelS = resolveComponent("OverlayModelS")
+const overlayModelX = resolveComponent("OverlayModelX")
+const overlayModelY = resolveComponent("OverlayModelY")
+const overlaySolar = resolveComponent("OverlaySolar")
+const overlaySolarRoof = resolveComponent("OverlaySolarRoof")
+const overlayWallConnector = resolveComponent("OverlayWallConnector")
 
 const overlay = shallowRef();
 
 useIntersectionObserver(model3, ([{ isIntersecting }], observerElement) => {
-  if (isIntersecting) overlay.value = "OverlayModel3";
+  if (isIntersecting) overlay.value = overlayModel3;
 });
 
 useIntersectionObserver(modelS, ([{ isIntersecting }], observerElement) => {
-  if (isIntersecting) overlay.value = "OverlayModelS";
+  if (isIntersecting) overlay.value = overlayModelS;
 });
 
 useIntersectionObserver(modelX, ([{ isIntersecting }], observerElement) => {
-  if (isIntersecting) overlay.value = "OverlayModelX";
+  if (isIntersecting) overlay.value = overlayModelX;
 });
 
 useIntersectionObserver(modelY, ([{ isIntersecting }], observerElement) => {
-  if (isIntersecting) overlay.value = "OverlayModelY";
+  if (isIntersecting) overlay.value = overlayModelY;
 });
 
 useIntersectionObserver(solar, ([{ isIntersecting }], observerElement) => {
-  if (isIntersecting) overlay.value = "OverlaySolar";
+  if (isIntersecting) overlay.value = overlaySolar;
 });
 
 useIntersectionObserver(solarRoof, ([{ isIntersecting }], observerElement) => {
-  if (isIntersecting) overlay.value = "OverlaySolarRoof";
+  if (isIntersecting) overlay.value = overlaySolarRoof;
 });
 
 useIntersectionObserver(
   wallConnector,
   ([{ isIntersecting }], observerElement) => {
-    if (isIntersecting) overlay.value = "OverlayWallConnector";
+    if (isIntersecting) overlay.value = overlayWallConnector;
   }
 );
 </script>

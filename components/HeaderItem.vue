@@ -1,0 +1,15 @@
+<template>
+    <li
+        class="
+          px-4
+          py-1.5
+          hover:bg-zinc-700/10
+          rounded-xl
+          transition
+          duration-300
+          backdrop-blur
+        "
+    >
+        <slot></slot>
+    </li>
+</template>

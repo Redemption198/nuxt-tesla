@@ -245,34 +245,34 @@ const overlay = shallowRef();
 
 useIntersectionObserver(model3, ([{ isIntersecting }], observerElement) => {
   if (isIntersecting) overlay.value = overlayModel3;
-});
+}, { threshold: 0.25 });
 
 useIntersectionObserver(modelS, ([{ isIntersecting }], observerElement) => {
   if (isIntersecting) overlay.value = overlayModelS;
-});
+}, { threshold: 0.25 });
 
 useIntersectionObserver(modelX, ([{ isIntersecting }], observerElement) => {
   if (isIntersecting) overlay.value = overlayModelX;
-});
+}, { threshold: 0.25 });
 
 useIntersectionObserver(modelY, ([{ isIntersecting }], observerElement) => {
   if (isIntersecting) overlay.value = overlayModelY;
-});
+}, { threshold: 0.25 });
 
 useIntersectionObserver(solar, ([{ isIntersecting }], observerElement) => {
   if (isIntersecting) overlay.value = overlaySolar;
-});
+}, { threshold: 0.25 });
 
 useIntersectionObserver(solarRoof, ([{ isIntersecting }], observerElement) => {
   if (isIntersecting) overlay.value = overlaySolarRoof;
-});
+}, { threshold: 0.25 });
 
 useIntersectionObserver(
   wallConnector,
   ([{ isIntersecting }], observerElement) => {
     if (isIntersecting) overlay.value = overlayWallConnector;
-  }
-);
+  },
+{ threshold: 0.25 });
 </script>
 
 

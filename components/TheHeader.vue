@@ -17,126 +17,36 @@
   >
     <IconTeslaLogo class="w-32 h-auto" />
     <ol class="xl:flex items-center gap-2 text-sm hidden">
-      <li
-        class="
-          px-4
-          py-1.5
-          hover:bg-zinc-700/10
-          rounded-xl
-          transition
-          duration-300
-          backdrop-blur
-        "
-      >
+      <HeaderItem>
         <a href="">Model S</a>
-      </li>
-      <li
-        class="
-          px-4
-          py-1.5
-          hover:bg-zinc-700/10
-          rounded-xl
-          transition
-          duration-300
-          backdrop-blur
-        "
-      >
+      </HeaderItem>
+      <HeaderItem>
         <a href="">Model 3</a>
-      </li>
-      <li
-        class="
-          px-4
-          py-1.5
-          hover:bg-zinc-700/10
-          rounded-xl
-          transition
-          duration-300
-          backdrop-blur
-        "
-      >
+      </HeaderItem>
+      <HeaderItem>
         <a href="">Model X</a>
-      </li>
-      <li
-        class="
-          px-4
-          py-1.5
-          hover:bg-zinc-700/10
-          rounded-xl
-          transition
-          duration-300
-          backdrop-blur
-        "
-      >
+      </HeaderItem>
+      <HeaderItem>
         <a href="">Model Y</a>
-      </li>
-      <li
-        class="
-          px-4
-          py-1.5
-          hover:bg-zinc-700/10
-          rounded-xl
-          transition
-          duration-300
-          backdrop-blur
-        "
-      >
+      </HeaderItem>
+      <HeaderItem>
         <a href="">Solar Roof</a>
-      </li>
-      <li
-        class="
-          px-4
-          py-1.5
-          hover:bg-zinc-700/10
-          rounded-xl
-          transition
-          duration-300
-          backdrop-blur
-        "
-      >
+      </HeaderItem>
+      <HeaderItem>
         <a href="">Solar Panels</a>
-      </li>
+      </HeaderItem>
     </ol>
 
     <ol class="xl:flex items-center gap-2 text-sm hidden">
-      <li
-        class="
-          px-4
-          py-1.5
-          hover:bg-zinc-700/10
-          rounded-xl
-          transition
-          duration-300
-          backdrop-blur
-        "
-      >
+      <HeaderItem>
         <a href="">Shop</a>
-      </li>
-      <li
-        class="
-          px-4
-          py-1.5
-          hover:bg-zinc-700/10
-          rounded-xl
-          transition
-          duration-300
-          backdrop-blur
-        "
-      >
+      </HeaderItem>
+      <HeaderItem>
         <a href="">Account</a>
-      </li>
-      <li
-        class="
-          px-4
-          py-1.5
-          hover:bg-zinc-700/10
-          rounded-xl
-          transition
-          duration-300
-          backdrop-blur
-        "
-      >
+      </HeaderItem>
+      <HeaderItem>
         <a href="">Menu</a>
-      </li>
+      </HeaderItem>
     </ol>
     <p
       class="

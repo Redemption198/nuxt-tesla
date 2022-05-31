@@ -8,10 +8,13 @@
       class="
         absolute
         inset-x-0
-        bottom-6
+        bottom-16
+        md:bottom-16
         lg:bottom-28
         w-11/12
-        lg:w-3/4
+        sm:w-4/6
+        md:w-1/2
+        lg:w-1/2
         xl:w-1/3
         mx-auto
       "

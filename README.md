@@ -1,6 +1,7 @@
-# Nuxt 3 Minimal Starter
+# Nuxt Tesla Homepage
+Static Tesla homepage built with [Nuxt 3](https://v3.nuxtjs.org) as a training project, it uses built-in CSS Scroll Snapping (works better on Firefox and Safari) and Intersection Observers wrappers from [VueUse](https://vueuse.org/).
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+[Demo](https://62962528f18120646d83abb8--timely-lily-78dd65.netlify.app/)
 
 ## Setup
 

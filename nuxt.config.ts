@@ -6,9 +6,13 @@ export default defineNuxtConfig({
 
   css: ["@/assets/css/main.css"],
 
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/image-edge"],
 
-  app: {
+  image: {
+    domains: ["tesla-cdn.thron.com"],
+  },
+
+  /* app: {
     baseURL: '/tesla/'
-  }
+  } */
 });

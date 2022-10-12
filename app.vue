@@ -17,6 +17,10 @@ const overlayWallConnector = resolveComponent("OverlayWallConnector");
 
 const overlay = shallowRef();
 
+useHead({
+  title: "Nuxt Tesla",
+});
+
 useIntersectionObserver(
   model3,
   ([{ isIntersecting }], observerElement) => {

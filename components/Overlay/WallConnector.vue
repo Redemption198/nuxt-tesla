@@ -13,10 +13,10 @@
       </button>
     </div>
     <div
-      class="absolute inset-x-0 bottom-0 mx-auto w-11/12 text-zinc-700 md:w-10/12 lg:w-3/4 xl:w-2/6"
+      class="absolute inset-x-0 bottom-0 sm:bottom-6 flex items-center justify-center text-zinc-700"
     >
       <ul
-        class="grid grid-flow-row gap-y-2 whitespace-nowrap sm:grid-flow-col md:sm:grid-flow-col lg:grid-flow-col xl:grid-flow-col"
+        class="grid grid-flow-row gap-1 sm:gap-6 whitespace-nowrap sm:grid-flow-col"
       >
         <li>Tesla © 2022</li>
         <li>Privacy & Legal</li>

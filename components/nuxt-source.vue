@@ -5,10 +5,10 @@ const props = defineProps({
   sizes: String,
 });
 
-const { $img } = useNuxtApp();
+const img = useImage()
 
 const cSizes = computed(() =>
-  $img.getSizes(props.src, {
+  img.getSizes(props.src, {
     sizes: props.sizes,
   })
 );

@@ -3,36 +3,36 @@
     class="fixed top-0 z-20 my-4 flex w-full items-center justify-between px-4 font-semibold text-zinc-900 lg:px-10"
   >
     <IconTeslaLogo class="h-auto w-32" />
-    <ol class="hidden items-center gap-2 text-sm xl:flex">
+      <ol class="hidden items-center gap-2 text-sm xl:flex">
       <HeaderItem>
-        <a href="">Model S</a>
+        <a href="#model-s">Model S</a>
       </HeaderItem>
       <HeaderItem>
-        <a href="">Model 3</a>
+        <a href="#model-3">Model 3</a>
       </HeaderItem>
       <HeaderItem>
-        <a href="">Model X</a>
+        <a href="#model-x">Model X</a>
       </HeaderItem>
       <HeaderItem>
-        <a href="">Model Y</a>
+        <a href="#model-y">Model Y</a>
       </HeaderItem>
       <HeaderItem>
-        <a href="">Solar Roof</a>
+        <a href="#solar-roof">Solar Roof</a>
       </HeaderItem>
       <HeaderItem>
-        <a href="">Solar Panels</a>
+        <a href="#solar-panels">Solar Panels</a>
       </HeaderItem>
     </ol>
 
     <ol class="hidden items-center gap-2 text-sm xl:flex">
       <HeaderItem>
-        <a href="">Shop</a>
+        <a href="#" @click.prevent aria-disabled="true" tabindex="0">Shop</a>
       </HeaderItem>
       <HeaderItem>
-        <a href="">Account</a>
+        <a href="#" @click.prevent aria-disabled="true" tabindex="0">Account</a>
       </HeaderItem>
       <HeaderItem>
-        <a href="">Menu</a>
+        <a href="#" @click.prevent aria-disabled="true" tabindex="0">Menu</a>
       </HeaderItem>
     </ol>
     <p
